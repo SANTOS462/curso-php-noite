@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras para Ajudar em Casa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #0044cc;
+            color: white;
+        }
+        td a {
+            color: #0044cc;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de Compras para Ajudar em Casa</h1>
+    </header>
+
+    <div class="container">
+        <h2>Produtos Necessários</h2>
+        <p>Abaixo está a lista de produtos que você pode comprar para ajudar em casa, com links para os preços mais baratos disponíveis.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço Aproximado</th>
+                    <th>Link para Compra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vassoura</td>
+                    <td>Ideal para limpar pisos de madeira e cerâmica.</td>
+                    <td>R$ 29,90</td>
+                    <td>
+                        <a href="https://www.magazineluiza.com.br/vassoura-compacta/p/vassoura" target="_blank">Comprar aqui</a> |
+                        <a href="https://www.leroymerlin.com.br/vassoura" target="_blank">Leroy Merlin</a> |
+                        <a href="https://www.extra.com.br/produto/vassoura" target="_blank">Extra</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Detergente</td>
+                    <td>Produto para lavar louças e utensílios.</td>
+                    <td>R$ 5,90</td>
+                    <td>
+                        <a href="https://www.americanas.com.br/produto/detergente" target="_blank">Comprar aqui</a> |
+                        <a href="https://www.carrefour.com.br/detergente" target="_blank">Carrefour</a> |
+                        <a href="https://www.pao-de-acucar.com.br/detergente" target="_blank">Pão de Açúcar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Esponja de limpeza</td>
+                    <td>Esponja multiuso para limpeza geral.</td>
+                    <td>R$ 3,50</td>
+                    <td>
+                        <a href="https://www.submarino.com.br/produto/esponja-de-limpeza" target="_blank">Comprar aqui</a> |
+                        <a href="https://www.amazon.com.br/esponja-de-limpeza" target="_blank">Amazon</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rodo</td>
+                    <td>Perfeito para secar pisos após limpeza.</td>
+                    <td>R$ 18,90</td>
+                    <td>
+                        <a href="https://www.casasbahia.com.br/produto/rodo" target="_blank">Comprar aqui</a> |
+                        <a href="https://www.mercadolivre.com.br/rodo" target="_blank">Mercado Livre</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sabão em pó</td>
+                    <td>Para lavar roupas com eficácia.</td>
+                    <td>R$ 9,90</td>
+                    <td>
+                        <a href="https://www.pontofrio.com.br/produto/sabao-em-po" target="_blank">Comprar aqui</a> |
+                        <a href="https://www.lidl.com.br/sabao-em-po" target="_blank">Lidl</a> |
+                        <a href="https://www.farmaciasapp.com.br/sabao-em-po" target="_blank">Farmácias APP</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
